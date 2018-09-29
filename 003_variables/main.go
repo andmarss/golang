@@ -77,4 +77,8 @@ func main() {
 	fmt.Printf("%-18s %-18v \n", "Tokyo", Tokyo)
 
 	greetingpackage.PrintGreetings()
+
+	func() {
+		fmt.Println("immediate anonymous call function")
+	}()
 }
